@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(monsters => addMonsters(monsters))
   })
 
-  function addMonsters(monsters)  {
+  function addMonsters(monsters) {
     //console.log(monsters)
     monsters.forEach(monster => {
       let monsterDiv = document.createElement("div")
